@@ -26,10 +26,14 @@ EVE Marketer v2 is a Python-based tool designed for use in **Google Colab**. It 
 1. **Input**  
    Upload the file [`materials_id_classified.csv`](https://github.com/kzon94/eve-marketer-v2), which includes:
 
-   - `type_id` — EVE Online's item ID
-   - `name` — Item name
-   - `material_type` — Category (Ore, Gas, Ice...)
+   - `type_id` — EVE Online's item ID  
+   - `name` — Item name  
+   - `material_type` — Category (Ore, Gas, Ice...)  
    - `tier` — Tier classification (T1–T7)
+
+   <a href="https://imgbb.com/"><img src="https://i.ibb.co/20sntMGx/materials-id-classified.png" alt="materials-id-classified" border="0"></a>
+
+   > 🧠 **Data source**: Special thanks to [Adam4EVE.eu](https://www.adam4eve.eu/info_types.php) — a fantastic resource whose data helped build the base classification list.
 
 2. **API Query**  
    The script calls the **ESI API** to retrieve:
@@ -45,6 +49,8 @@ EVE Marketer v2 is a Python-based tool designed for use in **Google Colab**. It 
    mining_market_jita_v3.csv
    ```
 
+   <a href="https://ibb.co/3ytPsvfP"><img src="https://i.ibb.co/pvCkPQWk/mining-market-jita-v3.png" alt="mining-market-jita-v3" border="0"></a>
+  
    - Uses `;` as the delimiter and `,` as the decimal symbol
    - Compatible with Excel, Google Sheets, and other spreadsheet tools
 
@@ -54,10 +60,14 @@ EVE Marketer v2 is a Python-based tool designed for use in **Google Colab**. It 
 
 Once the CSV is generated, you can run the **graph generator notebook** to visualize the data:
 
-- 📉 **Bar chart**: Current buy prices by tier/material type
-- 📈 **Logarithmic line chart**: Price evolution over time (31d, 7d, Now)
+- 📉 **Bar chart**: Current buy prices by tier/material type  
+  <a href="https://ibb.co/hJYyXYJz"><img src="https://i.ibb.co/39R7fR9Z/chart1.png" alt="chart1" border="0"></a>
+
+- 📈 **Logarithmic line chart**: Price evolution over time (31d, 7d, Now)  
+  <a href="https://ibb.co/yFKdCXNp"><img src="https://i.ibb.co/s9cb42gC/chart2.png" alt="chart2" border="0"></a>
 
 📸 Both graphs are exported as **one downloadable image** automatically.
+
 
 ---
 
