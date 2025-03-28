@@ -19,7 +19,7 @@ EVE Marketer v2 is a Python-based tool designed for use in **Google Colab**. It 
 > 🧪 **Note:** Jita 4-4 is currently used as the default trade hub for testing, as it's my primary buying/selling location.  
 > ⚙️ Future versions will support **Amarr, Dodixie, Rens, Hek**, and other hubs.
 
-
+---
 
 ## 🧩 How It Works
 
@@ -48,7 +48,7 @@ EVE Marketer v2 is a Python-based tool designed for use in **Google Colab**. It 
    - Uses `;` as the delimiter and `,` as the decimal symbol
    - Compatible with Excel, Google Sheets, and other spreadsheet tools
 
-
+---
 
 ## 📊 Market Visualizer
 
@@ -59,7 +59,7 @@ Once the CSV is generated, you can run the **graph generator notebook** to visua
 
 📸 Both graphs are exported as **one downloadable image** automatically.
 
-
+---
 
 ## ⚙️ Setup & Requirements
 
@@ -73,7 +73,7 @@ Install `jedi` to enable smart notebook functionality:
 > ⚠️ Yes, just **jedi**.  
 > You don't need the whole Jedi Council to analyze the market.
 
-
+---
 
 ## 🧠 Features
 
@@ -85,7 +85,7 @@ Install `jedi` to enable smart notebook functionality:
 - ✅ Colab-ready graphing tool
 - ✅ Auto-download of CSV and graph image
 
-
+---
 
 ## 🔮 Next Goals
 
@@ -94,7 +94,7 @@ Install `jedi` to enable smart notebook functionality:
 - ⚙️ ESI authentication for increased API limits
 - 📦 Manufacturing cost analysis
 
-
+---
 
 ## 🛡 Disclaimer
 
