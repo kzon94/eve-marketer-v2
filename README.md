@@ -66,6 +66,8 @@ Once the CSV is generated, you can run the **graph generator notebook** to visua
 - 📈 **Logarithmic line chart**: Price evolution over time (31d, 7d, Now)  
   <a href="https://ibb.co/yFKdCXNp"><img src="https://i.ibb.co/s9cb42gC/chart2.png" alt="chart2" border="0"></a>
 
+*Still working on logarithmic chart visualizations issues*
+
 📸 Both graphs are exported as **one downloadable image** automatically.
 
 
